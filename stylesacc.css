@@ -1,0 +1,317 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Tamaño uniforme para las imágenes de las tarjetas */
+  .card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Botón de compra con ícono de carrito */
+  .card button {
+    margin-top: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 16px;
+    font-weight: 500;
+  }
+  
+  /* Ícono del carrito (si usas Bootstrap Icons o Font Awesome) */
+  .card button img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+/* Fuente base y márgenes generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Tamaño uniforme para las imágenes de las tarjetas */
+  .card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Botón de compra con ícono de carrito */
+  .card button {
+    margin-top: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 16px;
+    font-weight: 500;
+  }
+  
+  /* Ícono del carrito (si usas Bootstrap Icons o Font Awesome) */
+  .card button img {
+    width: 20px;
+    height: 20px;
+  }
+ 
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.card h3 {
+
+}
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+ }
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #444;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #555;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+nav a {
+    color: #007BFF;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Encabezado y navegación */
+header {
+    background-color: #018a9c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+.logo {
+    width: 60px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px; /* Espacio interno alrededor del texto */
+    background-color: #cc6a26; /* Color de fondo del botón */
+    border-radius: 5px; /* Esquinas redondeadas */
+    transition: background; 0.3s ease-in-out, color 0.3s ease-in-out; /* Transiciones suaves */
+}
+
+nav ul li a:hover {
+    background-color: #0056b3; /* Fondo más oscuro al pasar el mouse */
+    color: #ffcc00; /* Cambia el color del texto al pasar el mouse */
+}
+
+/* Sección de destinos */
+.destinos {
+    text-align: center;
+    padding: 20px;
+}
+
+.destino {
+    background: white;
+    display: inline-block;
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    border: 2px dashed #002147;
+    transition: transform 0.3s ease-in-out;
+}
+
+.destino:hover {
+    transform: scale(1.1);
+    border: 2px solid #ffcc00;
+}
+
+/* Galería */
+.galeria {
+    text-align: center;
+    padding: 20px;
+}
+
+.imagenes img {
+    width: 150px;
+    margin: 10px;
+    border: 3px solid #002147;
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagenes img:hover {
+    transform: rotate(5deg);
+    border: 3px solid #ffcc00;
+}
+
+.producto img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Pie de página */
+footer {
+    background: #018a9c; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
